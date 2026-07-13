@@ -1,7 +1,7 @@
 import { useEffect, useRef, useCallback } from 'react';
 import { io, Socket } from 'socket.io-client';
 
-const SOCKET_URL = 'https://api-pi-neon.vercel.app';
+const SOCKET_URL = 'https://api-pi-neon.vercel.app/';
 
 let socketInstance: Socket | null = null;
 
